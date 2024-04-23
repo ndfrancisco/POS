@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory System Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Inventory System</h1>
+            </div>
+            <div class="menu-toggle">
+                <button>&#9776; Menu</button>
+            </div>
+        </div>
+    </header>
+    <div class="left-panel">
+        <nav class="navigation">
+            <ul>
+                <li><a href="dashboard.html" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="inventory.html"><i class="fas fa-boxes"></i> Inventory</a></li>
+                <li><a href="sales_report.html"><i class="fas fa-chart-line"></i> Sales Report</a></li>
+                <li><a href="monthly_activity.html"><i class="far fa-calendar-alt"></i> Monthly Activity</a></li>
+                <li><a href="purchase_invoice.html"><i class="fas fa-file-invoice-dollar"></i> Purchase Invoice</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div class="section">
+                <div class="section-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="section-content">
+                    <h2>Sales Overview</h2>
+                    <div class="graph">
+                        <!-- Include graphical representation of sales overview -->
+                        <img src="sales_overview_graph.png" alt="Sales Overview Graph">
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-icon">
+                    <i class="fas fa-box-open"></i>
+                </div>
+                <div class="section-content">
+                    <h2>Product Overview</h2>
+                    <div class="graph">
+                        <!-- Include graphical representation of product overview -->
+                        <img src="product_overview_graph.png" alt="Product Overview Graph">
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <div class="section-content">
+                    <h2>Sales Statistics</h2>
+                    <div class="graph">
+                        <!-- Include graphical representation of sales statistics -->
+                        <img src="sales_statistics_graph.png" alt="Sales Statistics Graph">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
