@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Report</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .pagination button, .pagination select {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Report</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Total Sales</th>
+                <th>Net Profit</th>
+                <th>Items Sold</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Sample rows -->
+            <tr>
+                <td>2022-04-23</td>
+                <td>$1000.00</td>
+                <td>$500.00</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2022-04-22</td>
+                <td>$800.00</td>
+                <td>$400.00</td>
+                <td>40</td>
+            </tr>
+            <!-- Add more rows here -->
+            <!-- Repeat the structure for additional rows -->
+        </tbody>
+    </table>
+    <div class="pagination">
+        Showing 1-10 of 10 Entries
+        <button>&lt;</button> <!-- Previous page button -->
+        <span>Page 1</span>
+        <button>&gt;</button> <!-- Next page button -->
+        <select>
+            <option>Show 10 Entries</option>
+            <option>Show 20 Entries</option>
+            <option>Show 50 Entries</option>
+        </select>
+    </div>
+</body>
+</html>
